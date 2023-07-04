@@ -96,6 +96,3 @@ echo -e "Check the R info...\n"
 R -q -e "sessionInfo()"
 
 echo -e "\nInstall R from source, done!"
-
-# session
-R -e "sessionInfo()"
