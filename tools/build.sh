@@ -89,3 +89,13 @@ rm -rf "R.tar.gz"
 # clean up
 dnf clean dbcache
 dnf clean all
+
+# Check the R info
+echo -e "Check the R info...\n"
+
+R -q -e "sessionInfo()"
+
+echo -e "\nInstall R from source, done!"
+
+# session
+R -e "sessionInfo()"
